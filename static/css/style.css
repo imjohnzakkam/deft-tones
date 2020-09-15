@@ -1,6 +1,8 @@
 body {
   background-color: lightgreen;
   transition: background-color 0.5s;
+  font-style: normal;
+  font-family: sans-serif;
 }
 
 .player {
