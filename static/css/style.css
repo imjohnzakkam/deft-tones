@@ -1,7 +1,5 @@
 body {
   background-color: lightgreen;
-
-  /* Smoothly transition the background color */
   transition: background-color 0.5s;
 }
 
@@ -53,8 +51,6 @@ body {
 .next-track {
   padding: 25px;
   opacity: 0.8;
-
-  /* Smoothly transition the opacity */
   transition: opacity 0.2s;
 }
 
@@ -72,7 +68,6 @@ body {
   align-items: center;
 }
 
-/* Modify the appearance of the slider */
 .seek_slider,
 .volume_slider {
   -webkit-appearance: none;
@@ -85,7 +80,6 @@ body {
   transition: opacity 0.2s;
 }
 
-/* Modify the appearance of the slider thumb */
 .seek_slider::-webkit-slider-thumb,
 .volume_slider::-webkit-slider-thumb {
   -webkit-appearance: none;
