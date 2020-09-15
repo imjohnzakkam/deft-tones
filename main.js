@@ -22,22 +22,22 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3"
+    name: "Photograph",
+    artist: "Ed Sheeran",
+    image: "https://wallpapercave.com/wp/wp3098878.jpg",
+	path: "https://r3---sn-cnoa-jv3l.googlevideo.com/videoplayback?expire=1600218813&ei=XRJhX5WrJYSgDMeZjMgG&ip=209.127.174.8&id=o-AA6fsDbbCLNeDncTIrsXY0zT5CobJYEpSbB2ROBIlUeE&itag=251&source=youtube&requiressl=yes&vprv=1&mime=audio%2Fwebm&gir=yes&clen=4259917&dur=274.241&lmt=1574997372847461&fvip=3&keepalive=yes&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgPhj0JMhP-xeFhn9IYDDDlCvLExbrmXIbQpy8wdnXM2YCIH6nTI0FIST7xEmj5wovmJ4lIIUZ2Ka72GMP3ATPcITw&ratebypass=yes&redirect_counter=1&rm=sn-a5mdk7s&req_id=baf2c5c8995ea3ee&cms_redirect=yes&ipbypass=yes&mh=nA&mip=59.98.129.187&mm=31&mn=sn-cnoa-jv3l&ms=au&mt=1600196970&mv=u&mvi=3&pcm2cms=yes&pl=22&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl&lsig=AG3C_xAwRQIgCbq_g6mGgZn0uOCfIJlxJJt503gq8HXM6pRMBhqowVoCIQDuGRonkzAgbqNZ9-ejaqhpN59xgSZDnGTWofN52ISxXQ%3D%3D"
   },
   {
-    name: "Enthusiast",
-    artist: "Tours",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
+    name: "Hey Mama",
+    artist: "Sethupathi",
+    image: "https://www.filmibeat.com/img/popcorn/movie_posters/sethupathi-20160120175955-14613.jpg",
+    path: "https://r1---sn-cnoa-jv3l.googlevideo.com/videoplayback?expire=1600218625&ei=oRFhX_mjAYrU8wSDsLDoDg&ip=209.127.106.85&id=o-AMTdarFoVUW4fO_AmQXcCpvvubz1MbvIxWKc5bz5Xd_S&itag=251&source=youtube&requiressl=yes&vprv=1&mime=audio%2Fwebm&gir=yes&clen=4543558&dur=267.021&lmt=1540910517496037&fvip=4&keepalive=yes&beids=9466586&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAOUv4n_TI5lSIGpi-jyRVGzGnrjWkf6Xrt6vC0_Y04hHAiAxNAE_0RFuVIvdyGGa0fzEYLqaLYj4NDdBND9T15HrNw==&ratebypass=yes&redirect_counter=1&rm=sn-ab5eel7z&fexp=9466586&req_id=180edbd96aa1a3ee&cms_redirect=yes&ipbypass=yes&mh=5e&mip=59.98.129.187&mm=31&mn=sn-cnoa-jv3l&ms=au&mt=1600196924&mv=m&mvi=1&pl=22&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAJ_mV_j8LzRo22yiiVypbh5VCPG1qjTxKkRsrEoQzxqzAiAi6verbBqswUbInU8OiVEXeUik_qYZkRR2PyhCrtJyJQ%3D%3D"
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    name: "Perfect",
+    artist: "Ed Sheeran",
+    image: "https://wallpapercave.com/wp/wp3098878.jpg" ,
+    path: "https://r1---sn-cnoa-jv3l.googlevideo.com/videoplayback?expire=1600219273&ei=KRRhX_-UHObohwbfwYNA&ip=186.179.14.204&id=o-AN9-hHUpGSRvVhY-fZCBGqN9LPJv7afVLOdOE4xkxZMq&itag=251&source=youtube&requiressl=yes&vprv=1&mime=audio%2Fwebm&gir=yes&clen=4736618&dur=279.841&lmt=1582083211485240&fvip=1&keepalive=yes&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAICB9Uz-xIIvezN8ANow9xeAH-b8NDNy2FhCyi_GBsJrAiEAjqF3jdUBpM9UYmb6HLmwffJd-vOhravm4jtasA2NasQ=&ratebypass=yes&redirect_counter=1&rm=sn-ab5rz7e&req_id=7bc7de6d5db5a3ee&cms_redirect=yes&ipbypass=yes&mh=iF&mip=59.98.129.187&mm=31&mn=sn-cnoa-jv3l&ms=au&mt=1600197529&mv=m&mvi=1&pl=22&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAPKKslDWhKb5ogOTsKy3EoqDJEpli3aOybMaQcHgUpQYAiBVtqxcvOJv7O9DppiEjmccqbTF44PXSHpKn7MTa7QiDQ%3D%3D",
   },
 ];
 
