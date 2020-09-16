@@ -23,18 +23,18 @@ let track_list = [
     name: "Photograph",
     artist: "Ed Sheeran",
     image: "https://wallpapercave.com/wp/wp3098878.jpg",
-	path: ""
+	path: "https://tinyurl.com/yxnaj5gv"
   },
   {
     name: "Hey Mama",
     artist: "Sethupathi",
-    image: "https://www.filmibeat.com/img/popcorn/movie_posters/sethupathi-20160120175955-14613.jpg",
+    image: "",
     path: ""
   },
   {
-    name: "Yenthara Lokapu Sundarive",
+    name: "",
     artist: "Robo 2.0",
-    image: "" ,
+    image: "https://wallpapercave.com/wp/wp3098878.jpg" ,
     path: "",
   },
 ];
