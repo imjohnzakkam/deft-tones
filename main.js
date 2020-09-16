@@ -26,16 +26,16 @@ let track_list = [
 	path: "https://tinyurl.com/yxnaj5gv"
   },
   {
-    name: "Hey Mama",
-    artist: "Sethupathi",
-    image: "",
-    path: ""
+    name: "A sky full of stars",
+    artist: "Coldplay",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRj4PxL156pgK7FUB8Z2D9ncDsVWJzjg8mzEw&usqp=CAU",
+    path: "https://tinyurl.com/y628sl34"
   },
   {
-    name: "",
-    artist: "Robo 2.0",
-    image: "https://wallpapercave.com/wp/wp3098878.jpg" ,
-    path: "",
+    name: "Stiches",
+    artist: "Shawn Mendes",
+    image: "https://wallpapercave.com/wp/wp1834121.jpg" ,
+    path: "https://tinyurl.com/y677k2cz",
   },
 ];
 
